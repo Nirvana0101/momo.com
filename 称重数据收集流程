@@ -1,1 +1,46 @@
-<mxfile host="www.draw.io" modified="2019-12-24T08:50:13.291Z" agent="Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36" version="12.4.3" etag="SXgN6K1kL2K_0AkcoAih" type="github" pages="1"><diagram id="WzQQHOob4j0-O3j4YgLd">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="www.draw.io" modified="2019-12-24T10:06:29.023Z" agent="Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36" etag="OxW2yfSeqlyUY6uSvbmb" version="12.4.3" type="github" pages="1">
+  <diagram id="WzQQHOob4j0-O3j4YgLd" name="Page-1">
+    <mxGraphModel dx="1024" dy="567" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="1IEQfVjO5sS62Q6_OmDw-1" value="车辆驶入1车道（触发线圈）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="520" width="160" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="1IEQfVjO5sS62Q6_OmDw-3" value="触发杜格" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="400" width="100" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="1IEQfVjO5sS62Q6_OmDw-4" value="称重" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="400" width="100" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="1IEQfVjO5sS62Q6_OmDw-6" value="车辆驶离1车道（结束触发）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="280" width="160" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="1IEQfVjO5sS62Q6_OmDw-9" value="拍后照" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="350" width="100" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="1IEQfVjO5sS62Q6_OmDw-10" value="拍前照" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="450" width="100" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="1IEQfVjO5sS62Q6_OmDw-12" value="plateNum" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="430" width="80" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="1IEQfVjO5sS62Q6_OmDw-13" value="frontPicName" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="480" width="80" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="1IEQfVjO5sS62Q6_OmDw-15" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="1IEQfVjO5sS62Q6_OmDw-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="470" as="sourcePoint"/>
+            <mxPoint x="560" y="420" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1IEQfVjO5sS62Q6_OmDw-16" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="1IEQfVjO5sS62Q6_OmDw-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="470" as="sourcePoint"/>
+            <mxPoint x="560" y="420" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
