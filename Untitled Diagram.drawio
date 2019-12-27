@@ -1,16 +1,16 @@
-<mxfile host="www.draw.io" modified="2019-12-27T01:10:19.701Z" agent="Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36" etag="4Ff2GnCH00G_8HiXi2L5" version="12.4.3" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-12-27T02:52:19.229Z" agent="Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36" etag="qLvTvEdXOwtvVltCEeSy" version="12.4.3" type="github" pages="1">
   <diagram id="9wscPv2j6m91EB0P6gqJ" name="Page-1">
     <mxGraphModel dx="1851" dy="567" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
-        <mxCell id="BtuXkDetv5w3qdVfljXv-1" value="1、创建服务端channel" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="BtuXkDetv5w3qdVfljXv-1" value="1、创建服务端SocketChannel" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="70" y="90" width="160" height="40" as="geometry"/>
         </mxCell>
         <mxCell id="BtuXkDetv5w3qdVfljXv-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BtuXkDetv5w3qdVfljXv-2" target="BtuXkDetv5w3qdVfljXv-8">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="BtuXkDetv5w3qdVfljXv-2" value="7、获取就绪的事件集合" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="BtuXkDetv5w3qdVfljXv-2" value="7、获取可用的channel,没有返回，反复获取" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="70" y="250" width="160" height="40" as="geometry"/>
         </mxCell>
         <mxCell id="BtuXkDetv5w3qdVfljXv-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="BtuXkDetv5w3qdVfljXv-4" target="BtuXkDetv5w3qdVfljXv-3">
@@ -45,10 +45,10 @@
         <mxCell id="BtuXkDetv5w3qdVfljXv-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BtuXkDetv5w3qdVfljXv-8" target="BtuXkDetv5w3qdVfljXv-9">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="BtuXkDetv5w3qdVfljXv-8" value="8、遍历" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="300" y="250" width="160" height="40" as="geometry"/>
+        <mxCell id="BtuXkDetv5w3qdVfljXv-8" value="&lt;span style=&quot;white-space: normal&quot;&gt;8、获取就绪的事件集合&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="250" width="160" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="BtuXkDetv5w3qdVfljXv-9" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="BtuXkDetv5w3qdVfljXv-9" value="&lt;span style=&quot;white-space: normal&quot;&gt;9、遍历处理对应的事件&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="520" y="250" width="160" height="40" as="geometry"/>
         </mxCell>
         <mxCell id="BtuXkDetv5w3qdVfljXv-10" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="BtuXkDetv5w3qdVfljXv-1" target="BtuXkDetv5w3qdVfljXv-7">
@@ -82,6 +82,9 @@
               <mxPoint y="230"/>
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="BtuXkDetv5w3qdVfljXv-25" value="&lt;font style=&quot;font-size: 23px&quot;&gt;服务端执行流程&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="20" width="180" height="20" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
